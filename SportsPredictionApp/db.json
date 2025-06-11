@@ -93,6 +93,36 @@
       "gameId": "gm1002",
       "selectedTeam": "Cover the Spread",
       "predictionType": "away"
+    },
+    {
+      "id": "d2f6",
+      "gameId": "gm1002",
+      "selectedTeam": "Dallas Mavericks",
+      "predictionType": "away"
+    },
+    {
+      "id": "4635",
+      "gameId": "gm1002",
+      "selectedTeam": "Dallas Mavericks",
+      "predictionType": "away"
+    },
+    {
+      "id": "ff7f",
+      "gameId": "gm1002",
+      "selectedTeam": "Dallas Mavericks",
+      "predictionType": "away"
+    },
+    {
+      "id": "3e8f",
+      "gameId": "gm1002",
+      "selectedTeam": "Golden State Warriors",
+      "predictionType": "home"
+    },
+    {
+      "id": "89ff",
+      "gameId": "gm1002",
+      "selectedTeam": "Golden State Warriors",
+      "predictionType": "home"
     }
   ],
   "user": {

@@ -10,16 +10,15 @@ export type GameStackParamList = {
 };
 
 const Stack = createStackNavigator<GameStackParamList>();
-console.log("Stack.Navigator routeNames:", Stack);
 const GameStackNavigator = () => {
     return (
         <Stack.Navigator initialRouteName="GameList">
             <Stack.Screen
-                name="GameList" // ✅ MUST match GameStackParamList
+                name="GameList"
                 component={GameScreen}
             />
             <Stack.Screen
-                name="GameDetail" // ✅ MUST match GameStackParamList
+                name="GameDetail"
                 component={GameDetailScreen}
             />
         </Stack.Navigator>

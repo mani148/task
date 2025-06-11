@@ -83,12 +83,12 @@ const GameDetailScreen: React.FC<Props> = ({route}) => {
           </Text>
         </View>
         <View style={styles.containerWidth}>
-          {prediction ? (
+          {prediction && status === GAME_STATUS.IN_PROGRESS ? (
             <Text style={styles.predictionText}>{strings.gameDetailScreen.predicted}</Text>
           ) : (
               <Text style={styles.predictionText}>{strings.gameDetailScreen.makePrediction}</Text>
           )}
-          {prediction ? (
+          {prediction && status === GAME_STATUS.IN_PROGRESS ? (
             <TouchableOpacity onPress={resetPrediction}>
               <Text style={styles.spreadText}>
                 {prediction?.selectedTeam} for Game ID {prediction?.gameId}

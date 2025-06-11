@@ -31,7 +31,7 @@ function App(): React.JSX.Element {
   const Tab = createBottomTabNavigator();
 
   return (
-    <GestureHandlerRootView style={{ flex: 1 }}>
+  <GestureHandlerRootView style={{ flex: 1 }}>
   <SafeAreaProvider>
         <PredictionProvider>
           <NavigationContainer>

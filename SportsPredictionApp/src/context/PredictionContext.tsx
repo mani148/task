@@ -1,7 +1,6 @@
 import React, { createContext, useContext, useState } from 'react'
 import { submitPrediction } from '../service/services'
 
-//type PredictionType = 'home' | 'away' | 'spread';
 
 type Prediction = {
 gameId: string,
@@ -18,7 +17,7 @@ type ContextType = {
 const PredictionContext = createContext<ContextType>({
     prediction: null,
     makePrediction: () =>{},
-    resetPrediction: () => {}
+    resetPrediction: () => {},
 });
 
 export const usePrediction = () => useContext(PredictionContext);
@@ -44,4 +43,4 @@ const PredictionProvider = ({ children }:  { children: React.ReactNode }) => {
       );
 }
 
-export default PredictionProvider
+export default PredictionProvider;
